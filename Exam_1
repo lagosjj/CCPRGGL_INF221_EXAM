@@ -1,0 +1,54 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+    
+        Person Me = new Person();
+        Me.lastname = "Lagos";
+        Me.firstname = "John Jed";
+        Me.middleinitial = 'H';
+        Me.dateOfBirth = 9/11/01;
+        Me.studentNumber = 2022100385;
+        Me.studentEmailAddress = "lagosj@students.national-u.edu.ph";
+        Me.iAmAwesome =true;
+        Me.SayMyStudentNumber();
+        Me.SayMyEmailAddress();
+        Me.AmIAwesome();
+
+
+
+
+    }
+
+
+
+    
+}
+
+public class Person {
+    String lastname;
+    String firstname;
+    Character middleinitial;
+    int dateOfBirth;
+    int studentNumber;
+    String studentEmailAddress;
+    Boolean iAmAwesome;
+
+
+    public void SayMyStudentNumber() {
+        System.out.println("My Student Number is " + studentNumber);
+
+    }
+
+
+    public void SayMyEmailAddress(){
+        System.out.println("My Email Address is " + studentEmailAddress);
+
+    }
+
+    public void AmIAwesome(){
+        System.out.println(iAmAwesome);
+
+    }
+
+} 
+    
+
